@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%27");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* herder style */
+.header--image {
+  max-width: 70px;
+}
+.navbar {
+  background-color: #31304c;
+}
+.navbar--links {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* end of herder style */
+/* .cc{
+  background-color:#100f20;;
+} */
+
+/* cards style */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.5rem;
+  row-gap: 3rem;
+  margin-bottom: 20px;
+}
+.phone-card {
+  justify-self: center;
+  width: 280px;
+}
+.search--section {
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  gap: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.search--input {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#root {
+  background: rgb(34, 3, 36);
+  background: radial-gradient(
+    circle,
+    rgba(34, 3, 36, 1) 62%,
+    rgba(10, 1, 14, 1) 100%
+  );
+}
+.phone-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 5px;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: rgb(49, 48, 76);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.phone--image {
+  max-width: 120px;
+  max-height: 300px;
+}
+.phone--name {
+  margin-top: 5px;
+  align-self: flex-start;
+}
+.card--previewbtn {
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: rgb(34, 120, 235);
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  justify-self: end;
+}
+.phone--rating {
+  align-self: flex-start;
+}
+.phone--price-preview {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.phone--price {
+  margin-right: 50px;
+}
+
+/* end of cards style */
+
+/* SPecification style */
+.container-g{
+  display: flex;
+  justify-content: center;
+}
+.phone--detialssection, h4 h5{
+  color: #fff;
+}
+.phone--container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background: rgb(49, 48, 76);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ width: 70%;
+ display: grid;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ grid-template-columns: 1fr 1fr;
+}
+.details--image-container{
+  justify-self: center;
+  
+}
+.details--image{
+  width: 350px;
+}
+.phone--detialssection{
+  display: grid;
+}
+
+/* End Specification style */
+/* footer style */
+footer {
+  position: relative;
+  bottom: 0;
+}
+.footer {
+  background-color: #31304c;
+  color: #fff;
+}
+.footer-href {
+  text-decoration: none;
+  color: #fff;
+}
+.footer--logo {
+  width: 80px;
+}
+.footer--website-link {
+  text-decoration: underline;
+  color: #fff;
+}
+/* end of footer style */
+@media only screen and (max-width: 1220px) {
+  .phone--details{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .phone--container{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .details--image{
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .details--image{
+    width: 200px;
+  }
+}
